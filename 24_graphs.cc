@@ -5,7 +5,7 @@
 class Graph {
  private:
   int V;                            // Número de vértices
-  std::vector<std::list<int>> adj;  // Lista de adyacencia
+  std::vector<std::list<int> > adj;  // Lista de adyacencia
 
  public:
   Graph(int V);                // Constructor
