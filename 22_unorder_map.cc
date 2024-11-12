@@ -46,6 +46,7 @@ int main(int argc, char* argv[]) {
   fruitTable[{"banana", 2}] = {20, 0.50};
   fruitTable[{"orange", 3}] = {15, 0.75};
 
+
   // Imprimimos los datos almacenados en el mapa
   for (const auto& pair : fruitTable) {
     std::cout << "Fruit: " << pair.first.name << ", ID: " << pair.first.id
